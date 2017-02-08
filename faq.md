@@ -9,10 +9,10 @@ Please be sure you have completed the following steps to prepare your machine:
 ### Get a copy of this repository
 
 Clone or download this repo locally on your machine. If you're downloading a zip copy of the repo please be sure the zip file is unblocked before decompressing it. In order to unblock the zip file:
- * Right-click on the downloaded copy
- * Choose Property
- * On the Property page tick the unblock checkbox
- * Press OK
+* Right-click on the downloaded copy
+* Choose Property
+* On the Property page tick the unblock checkbox
+* Press OK
 
 ### Run the Particular Platform Installer
 
@@ -51,15 +51,17 @@ The exercises are composed of 8 different Visual Studio solutions. All the solut
 
 #### How can I empty the orders list or database?
 
-The solution uses Entity Framework migrations with a seed to insert two orders, so there will always be orders. But if you want to start clean you can always remove the SqlLite datastore file from disk. Database files are stored in the `c:\temp` folder. Each exercise stores data into a dedicated folder, e.g. `c:\temp\exercise2before`
+... to do ... (Use SSMS or the drop db script)
 
-**Solution** : Delete files stored into the exercise folder or the entire folder.
+~~The solution uses Entity Framework migrations with a seed to insert two orders, so there will always be orders. But if you want to start clean you can always remove the SqlLite datastore file from disk. Database files are stored in the `c:\temp` folder. Each exercise stores data into a dedicated folder, e.g. `c:\temp\exercise2before`~~
 
-#### SQLite locked assemblies prevent Visual Studio projects compilation
+~~**Solution** : Delete files stored into the exercise folder or the entire folder.~~
 
-Ensure that, when compiling projects from Visual Studio, `IIS Express` is shut down.
+~~### SQLite locked assemblies prevent Visual Studio projects compilation~~
 
-**Solution** : Right click on the `IIS Express` icon in the `Tray Area` and click `Exit`.
+~~Ensure that, when compiling projects from Visual Studio, `IIS Express` is shut down.~~
+
+~~**Solution** : Right click on the `IIS Express` icon in the `Tray Area` and click `Exit`.~~
 
 ## Exercise 4 - IT/Ops known issues
 
